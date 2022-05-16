@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Bee Florist | SunFlowers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="index.html" class="header-link"><h1><span class="highlight">Busy</span> Bee Florist</h1></a>
+            </div>
+             <!-- Mobile Nav -->
+             <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div class="icon">&#9776;</div>
+                </a>
+            </nav>
+            <nav>
+                <ul class="tablet-desktop">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <!-- <li><a href="announcement.html">Announcement</a></li> -->
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to Our Newletter</h1>
+            <form name="myForm" action="submitted.html" id="my_form" class="form-control" method="GET">
+                <input type="text" id="email" name="email" placeholder="Enter email...">
+                <button type="submit" class="button_1">Subscribe</button>
+                <small class="error">Error Message</small>
+                
+                
+            </form>
+        </div>
+    </section>
+    <section id="boxes">
+        
+        <div class="container">
+            <div class="heading">
+                <h1>SUNFLOWER COLLECTION</h1>
+            </div>
+            
+            <div>
+                <div class="box">
+                    <img src="./img/common-sunflower.jpg" alt="common-sunflower">
+                    <h3 class="lato">Common Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+                <div class="box">
+                    <img src="./img/home-page-sunflowers.jpg" alt="home-page-sunflowers">
+                    <h3 class="lato">Original Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+                <div class="box">
+                    <img src="./img/maximillian-sunflower.jpg" alt="maximillian-sunflower">
+                    <h3 class="lato">Maximillan Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+                <div class="box lower-boxes">
+                    <img src="./img/pale-leave-sunflower.jpg" alt="pale-leave-sunflower">
+                    <h3 class="lato">Pale Leave Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+                <div class="box lower-boxes">
+                    <img src="./img/woodland-sunflower.jpg" alt="woodland-sunflower">
+                    <h3 class="lato">Woodland Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+                <div class="box lower-boxes">
+                    <img src="./img/perenial-sunflower.jpg" alt="perenial-sunflower">
+                    <h3 class="lato">Perenial Sunflower</h3>
+                    <button type="submit" onclick="window.location.href='./description.html';" class="button_1">Order Now</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <h1 class="learn">Learn More</h1>
+        <div>
+            <ul>
+                <li><a href="https://www.bhg.com.au/australian-native-flowers-a-guide-to-australian-flowers" class="lato">Guide to Australian Flowers</a></li>
+                <li><a href="https://www.almanac.com/flower-meanings-language-flowers" class="lato">Flower Meanings</a></li>
+                <li><a href="https://www.almanac.com/flower-meanings-language-flowers" class="lato">Flower Rankings</a></li>
+            </ul>
+            
+        </div>
+        <p><span class="highlight">Busy</span> Bee Florist, Copyright &copy; 2022</p>
+    </footer>
+    <script src="script.js"></script> <!-- Link JavaScript to HTML -->
+    <script src="hamburger.js"></script>
+</body>
+</html>
+
